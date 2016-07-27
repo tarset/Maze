@@ -16,6 +16,7 @@ public class Main {
         maze = Solving.solvingMaze(maze, height, width);
         maze = Maze.substituteForRemoveWrongWay(maze, height, width);
         Maze.outputSolvingMazeImage(maze, height, width);
+        System.out.println("Maze created.");
     }
 
     private static int inputHeight() {
